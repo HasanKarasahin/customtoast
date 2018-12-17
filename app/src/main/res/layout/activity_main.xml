@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        style="@style/public_bt"
+        android:onClick="btnGravity_Click"
+        android:text="Gravity" />
+
+    <Button
+        style="@style/public_bt"
+        android:onClick="btnMargin_Click"
+        android:text="Margin" />
+
+    <Button
+        style="@style/public_bt"
+        android:onClick="btnWarning_Click"
+        android:text="Warning" />
+
+    <Button
+        style="@style/public_bt"
+        android:onClick="btnError_Click"
+        android:text="Error" />
+
+    <Button
+        style="@style/public_bt"
+        android:onClick="btnSuccessful_Click"
+        android:text="successful" />
+
+</LinearLayout>
