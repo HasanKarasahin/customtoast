@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
     private void toastWithGravity() {
         CustomToast.show(MainActivity.this, Gravity.CENTER, 10, 10, "TEST1");
         CustomToast.show(MainActivity.this, Gravity.RIGHT, 20, 10, "TEST2");
