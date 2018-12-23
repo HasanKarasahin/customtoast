@@ -6,7 +6,7 @@
     android:background="@android:color/white"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="custom_toast.MainActivity">
 
     <Button
         style="@style/public_bt"

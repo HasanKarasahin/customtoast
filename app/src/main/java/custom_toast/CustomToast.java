@@ -1,10 +1,12 @@
-package com.example.hasan.custom_toast;
+package custom_toast;
 
 import android.app.Activity;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.hasan.custom_toast.R;
 
 public class CustomToast {
 

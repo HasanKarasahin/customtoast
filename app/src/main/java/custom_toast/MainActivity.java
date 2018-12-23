@@ -1,13 +1,15 @@
-package com.example.hasan.custom_toast;
+package custom_toast;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 
-import static com.example.hasan.custom_toast.CustomToast.NEGATIVE;
-import static com.example.hasan.custom_toast.CustomToast.POZITIVE;
-import static com.example.hasan.custom_toast.CustomToast.ZERO;
+import com.example.hasan.custom_toast.R;
+
+import static custom_toast.CustomToast.NEGATIVE;
+import static custom_toast.CustomToast.POZITIVE;
+import static custom_toast.CustomToast.ZERO;
 
 public class MainActivity extends AppCompatActivity {
 

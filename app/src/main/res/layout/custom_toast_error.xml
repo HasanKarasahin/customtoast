@@ -31,5 +31,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/tvTitle"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/ic_error_32" />
+        android:background="@drawable/ic_error" />
 </android.support.constraint.ConstraintLayout>
